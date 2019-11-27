@@ -16,8 +16,8 @@ namespace ContractTests.Consumer
         public ConsumerPact()
         {
             PactConfig config = new PactConfig {
-                PactDir = @"C:\Users\sekar.nagaraj\source\repos\ShowRoomApi\ContractTests\pacts",
-                LogDir = @"C:\Users\sekar.nagaraj\source\repos\ShowRoomApi\ContractTests\logs"
+                PactDir = @"",
+                LogDir = @""
             };
             PactBuilder = new PactBuilder(config);
             PactBuilder
